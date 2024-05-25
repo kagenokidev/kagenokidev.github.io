@@ -1,0 +1,54 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>
+<![CDATA[ 陰の樹のブログ-ホーム ]]>
+</title>
+<description>
+<![CDATA[ 陰の樹のブログ-ホーム ]]>
+</description>
+<link>https://kagenoki.soragoto.net/blog/</link>
+<image>
+<url>https://kagenoki.soragoto.net/favicon.ico</url>
+<title>陰の樹のブログ-ホーム</title>
+<link>https://kagenoki.soragoto.net/blog/</link>
+</image>
+<generator>https://rss.app</generator>
+<lastBuildDate>Fri, 24 May 2024 07:12:10 GMT</lastBuildDate>
+<atom:link href="https://rss.app/feeds/hPdR6rFtR9IRM3Di.xml" rel="self" type="application/rss+xml"/>
+<language>
+<![CDATA[ en ]]>
+</language>
+<item>
+<title>
+<![CDATA[ 陰の樹のブログ-AppleEvent2024年5月まとめ！！ ]]>
+</title>
+<link>https://kagenoki.soragoto.net/blog/blog2024AppleEventmatome.html</link>
+<guid isPermaLink="false">12b1af0ee5ff4442e269cfd26359d7e5</guid>
+<dc:creator>
+<![CDATA[ kagenoki.soragoto.net ]]>
+</dc:creator>
+<pubDate>Wed, 08 May 2024 00:23:00 GMT</pubDate>
+</item>
+<item>
+<title>
+<![CDATA[ 陰の樹-本サイトで使用しているサーバー ]]>
+</title>
+<link>https://kagenoki.soragoto.net/blog/blog2024-04-08.html</link>
+<guid isPermaLink="false">6ec0f60ec6e84c3b4e2aad0af40a1811</guid>
+<dc:creator>
+<![CDATA[ kagenoki.soragoto.net ]]>
+</dc:creator>
+<pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>
+<![CDATA[ 陰の樹のブログ-ホームボタンiPad販売終了 ]]>
+</title>
+<link>https://kagenoki.soragoto.net/blog/homebuttonipadshuuryou.html</link>
+<guid isPermaLink="false">5738b7a01bfe09ed8afc24cdbc4728ab</guid>
+<dc:creator>
+<![CDATA[ kagenoki.soragoto.net ]]>
+</dc:creator>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,46 @@
+:root { --primary-color: #ffffff; --secondary-color: #f5f5f5; --text-color: #333; }
+body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; color: var(--text-color); background-color: var(--secondary-color); }
+header { background-color: var(--primary-color); color: #000000; padding: 1rem; text-align: center; }
+header h1 { font-size: 2rem; margin-bottom: 1rem; }
+nav ul { list-style-type: none; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+nav li { margin: 0.5rem 0; }
+nav a { color: #fff; text-decoration: none; font-weight: 600; }
+main { padding: 2rem; }
+section { background-color: #fff; padding: 2rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 0px; margin-bottom: 2rem; }
+footer { background-color: var(--primary-color); color: #000; padding: 1rem; text-align: center; }
+/* メディアクエリ */ @media (min-width: 768px) { nav ul { flex-direction: row; justify-content: center; }
+nav li { margin: 0 1rem; }
+main { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; } }
+ 
+.anim-box.zoomin.is-animated {
+  animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+ 
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/*****css*****/
+/*qanda-open*/
+.qanda-wrap{border-bottom:dotted 1px #999;margin: 0 0 3.25em 0;}
+.qanda-check{display: none;}
+.qanda-label{cursor :pointer; display: block;}
+
+.qanda-content{padding:1em 0 1em 0;height: 0px; padding: 0 ; display:none;}
+.qanda-check:checked + .qanda-label + .qanda-content{display:block; height: 100%; padding: 1em 0 ;
+ animation: show 1s linear 0s;
+}
+@keyframes show{
+    from{opacity: 0; }
+    to{ opacity: 1; }
+}
+
+.question{color:#ff6699;font-size:1.125em;font-weight:bold;margin-top:0.875em;padding-bottom:0.25em;}
+.question .material-icons{display: inline-flex; font-size:2em; margin-right: 0.25em; vertical-align: middle;}
+.answer{color:#6699ff;font-size:1.125em;font-weight:bold;margin-top:0.5em;}
